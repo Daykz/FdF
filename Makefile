@@ -16,7 +16,7 @@ SRCS = srcs/main.c srcs/draw.c srcs/fdf.c srcs/bresenham.c
 
 OBJS =		$(SRCS:.c=.o)
 
-##INC_FILES =	-I incs/fdf.h
+INC_FILES =	-I fdf.h
 
 INCLUDES =	-I libft/ \
 			-I mini \
